@@ -1,5 +1,5 @@
 # OrderTrack
-<h3>1. Objetivo do Projeto<h3/>
+<h3>1. Objetivo do Projeto</h3>
 O objetivo deste projeto de software é criar um sistema que permita a inserção e gerenciamento de dados de clientes e produtos, além de possibilitar o preenchimento de pedidos. O software também deve permitir a geração de relatórios filtrados por cliente ou data, que podem ser exportados em formato PDF para impressão ou envio por meio de aplicativos de mensagem, como WhatsApp, ou por email.
 <br>
 <h3>2. Problema ou Necessidade a Ser Resolvida</h3>

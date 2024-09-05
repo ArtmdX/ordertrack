@@ -1,20 +1,36 @@
-# OrderTrack
-<h3>1. Objetivo do Projeto</h3>
-O objetivo deste projeto de software é criar um sistema que permita a inserção e gerenciamento de dados de clientes e produtos, além de possibilitar o preenchimento de pedidos. O software também deve permitir a geração de relatórios filtrados por cliente ou data, que podem ser exportados em formato PDF para impressão ou envio por meio de aplicativos de mensagem, como WhatsApp, ou por email.
-<br>
-<h3>2. Problema ou Necessidade a Ser Resolvida</h3>
-O software deve resolver a necessidade de catalogar clientes, armazenando informações como CNPJ, nome, telefone e endereço. Além disso, o software deve facilitar a geração de pedidos que serão enviados ao setor de faturamento, otimizando o fluxo de trabalho e reduzindo erros.
-  <br>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<h3>3. Funcionalidades Essenciais</h3>
-•	Banco de Dados de Clientes: O software deve incluir um banco de dados robusto para armazenar informações detalhadas dos clientes, incluindo CNPJ, nome, telefone e endereço. <br>
-•	Preenchimento de Pedidos: Deve haver uma funcionalidade que permita o preenchimento fácil e intuitivo de pedidos de clientes, associando produtos a cada pedido. 
-<br>
-<h3>4. Funcionalidades Adicionais (Desejáveis, mas não Essenciais)</h3>
-•	Filtros e Pesquisas Avançadas: Implementação de filtros para facilitar a busca de clientes ou pedidos por diferentes critérios, como código ou nome, para melhorar a usabilidade e eficiência do sistema.
-<br>
-<h3>5. Requisitos Técnicos e Plataforma</h3>
-Não há requisitos técnicos específicos ou plataformas designadas para o desenvolvimento do software, proporcionando flexibilidade na escolha das tecnologias mais adequadas.
-<br>
-<h3>6. Preocupações e Riscos Identificados</h3>
-A principal preocupação relacionada a este projeto é a possibilidade de erros na geração de pedidos, o que poderia impactar negativamente o processo de faturamento e a satisfação do cliente. Portanto, é essencial garantir que o software seja confiável e livre de bugs, especialmente na funcionalidade de geração de pedidos.
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
